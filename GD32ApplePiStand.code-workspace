@@ -1,0 +1,63 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "clangd.fallbackFlags": [
+            "-Ig:/Keil_v5/ARM/ARMCLANG/include",
+            "-I${workspaceFolder}/include",
+            "-I${workspaceFolder}/src",
+            "-I${workspaceFolder}/lib/LED",
+            "-I${workspaceFolder}/lib/NVIC",
+            "-I${workspaceFolder}/lib/RCU",
+            "-I${workspaceFolder}/lib/RunClock",
+            "-I${workspaceFolder}/lib/System",
+            "-I${workspaceFolder}/lib/Systick",
+            "-I${workspaceFolder}/lib/Timer",
+            "-I${workspaceFolder}/lib/UART0",
+            "-I${workspaceFolder}/lib/OLED",
+            "-I${workspaceFolder}/lib/Keyone",
+            "-I${workspaceFolder}/lib/EXTI",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/cores/gd32",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/startup_files",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/variants/gd32f30x",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/variants/gd32f30x/inc",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/variants/gd32f30x/src",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbd_library",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbd_library/usbd/Include",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbd_library/device/Include",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbfs_library",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbfs_library/driver/Include",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbfs_library/host/core/Include",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbfs_library/device/core/Include",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbfs_library/ustd/common",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbfs_library/ustd/class/cdc",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbfs_library/ustd/class/hid",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/GD32F30x_usbfs_library/ustd/class/msc",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/LCD_Commom",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/efsl/include",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/efsl/src",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/fat_fs/include",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/fat_fs/src",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f303b_eval",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f303b_lcd_eval",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f303b_start",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f303c_eval",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f303c_lcd_eval",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f303c_start",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f303e_eval",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f303e_lcd_eval",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f305r_start",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f307c_eval",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32f30x/gd32f307c_lcd_eval",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/libraries/cmsis_dsp/include",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/libraries/cmsis_dsp",
+            "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/libraries/cmsis_dsp_from_source/src",
+            "--target=arm-arm-none-eabi",
+            "-DGD32F30X_HD",
+            ""
+        ]
+    }
+}
