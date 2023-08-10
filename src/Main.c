@@ -2,17 +2,18 @@
 
 void InitSoftware(void)
 {
-    InitEXTI();          //初始化EXTI模块
-    SystemInit();        //系统初始化
-    InitRCU();           //初始化RCU模块
-    InitNVIC();          //初始化NVIC模块  
+    InitEXTI();                 //初始化EXTI模块
+    SystemInit();               //系统初始化
+    InitRCU();                  //初始化RCU模块
+    InitNVIC();                 //初始化NVIC模块  
     InitUART0(115200);   //初始化UART模块
-    InitTimer();         //初始化Timer模块
-    InitLED();           //初始化LED模块
-    InitSysTick();       //初始化SysTick模块
-    InitKeyOne();        //初始化KeyOne模块
-    InitProcKeyOne();    //初始化ProcKeyOne模块
-    InitOLED();          //初始化OLED模块
+    InitTimer();                //初始化Timer模块
+    InitLED();                  //初始化LED模块
+    InitSysTick();              //初始化SysTick模块
+    InitKeyOne();               //初始化KeyOne模块
+    InitProcKeyOne();           //初始化ProcKeyOne模块
+    InitOLED();                 //初始化OLED模块
+    InitCapture();              //初始化Capture模块
 }
 
 void InitHardware(void)
@@ -41,6 +42,7 @@ static void Proc2msTask(void){
 }
 
 static void Proc1sTask(void){
+
     if(Get1SecFlag()){
         DispTime(GetTimeVal(TIME_VAL_HOUR), GetTimeVal(TIME_VAL_MIN), GetTimeVal(TIME_VAL_SEC));
         Clr1SecFlag();

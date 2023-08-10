@@ -20,6 +20,8 @@
             "-I${workspaceFolder}/lib/OLED",
             "-I${workspaceFolder}/lib/Keyone",
             "-I${workspaceFolder}/lib/EXTI",
+            "-I${workspaceFolder}/lib/PWM",
+            "-I${workspaceFolder}/lib/Capture",
             "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/cores/gd32",
             "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/startup_files",
             "-Ic:/Users/Administrator/.platformio/packages/framework-spl-gd32/gd32/cmsis/variants/gd32f30x",
